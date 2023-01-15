@@ -27,10 +27,10 @@ public class Fibonacci {
         int n0 = 1;
         int n1 = 1;
         int n2 = 0;
-        fib.add(1);
         if (n == 0) {
             return fib;
         }
+        fib.add(1);
         if (n == 1) {
             return fib;
         }
